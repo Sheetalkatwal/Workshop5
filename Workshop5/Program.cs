@@ -24,39 +24,58 @@
 
 //Task2
 
-using System;
-using System.Runtime.ConstrainedExecution;
+//using System;
+//using System.Runtime.ConstrainedExecution;
 
-namespace Workshop5
-{
-    class Program
-    {
-        static void Main()
-        {
-            Car car = new Car();
-            car.Brand = "Toyota";
-            car.Speed = 120;
-            car.Seats = 4;
+//namespace Workshop5
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Car car = new Car();
+//            car.Brand = "Toyota";
+//            car.Speed = 120;
+//            car.Seats = 4;
 
-            Motorcycle moto = new Motorcycle();
-            moto.Brand = "Yamaha";
-            moto.Speed = 90;
-            moto.Type = "Sport";
+//            Motorcycle moto = new Motorcycle();
+//            moto.Brand = "Yamaha";
+//            moto.Speed = 90;
+//            moto.Type = "Sport";
 
-            Console.WriteLine("Car Info:");
-            car.Start();
-            car.DisplayInfo();
-            car.Stop();
+//            Console.WriteLine("Car Info:");
+//            car.Start();
+//            car.DisplayInfo();
+//            car.Stop();
 
-            Console.WriteLine();
+//            Console.WriteLine();
 
-            Console.WriteLine("Motorcycle Info:");
-            moto.Start();
-            moto.DisplayInfo();
-            moto.Stop();
-        }
-    }
-}
+//            Console.WriteLine("Motorcycle Info:");
+//            moto.Start();
+//            moto.DisplayInfo();
+//            moto.Stop();
+//        }
+//    }
+//}
+
+//Task3
+//using System;
+
+//namespace Workshop5
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Printer p = new Printer();
+
+//            p.Print("Hello World");
+//            p.Print(123);
+//            p.Print("Repeat this", 3);
+//        }
+//    }
+//}
+
 
 
 
