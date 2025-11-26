@@ -76,6 +76,32 @@
 //    }
 //}
 
+//Task4
+//using System;
+
+//namespace School
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            // Creating instances of derived classes
+//            Teacher englishTeacher = new Teacher("Sital Katuwal");
+//            NepaliTeacher nepaliTeacher = new NepaliTeacher("Sandhya Phuyal");
+//            MathTeacher mathTeacher = new MathTeacher("Kritika Pandey");
+
+//            // Calling methods on each object
+//            englishTeacher.Teaching();
+//            nepaliTeacher.Teaching();
+//            mathTeacher.Teaching();
+
+//            // Calling SalaryInfo, which cannot be overridden
+//            Console.WriteLine(englishTeacher.SalaryInfo());
+//            Console.WriteLine(nepaliTeacher.SalaryInfo());
+//            Console.WriteLine(mathTeacher.SalaryInfo());
+//        }
+//    }
+//}
 
 
 
